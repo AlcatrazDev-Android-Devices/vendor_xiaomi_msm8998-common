@@ -148,7 +148,10 @@ PRODUCT_PACKAGES += \
     sensors.ssc \
     vendor.dolby.hardware.dms@1.0 \
     vendor.qti.hardware.tui_comm@1.0_vendor \
+    btaudio_offload_if \
     camera.msm8998 \
+    vendor.qti.hardware.bluetooth_audio@2.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.1-impl \
     libFaceGrade \
     libMiCameraHal \
     libOmxVpp \
@@ -169,6 +172,8 @@ PRODUCT_PACKAGES += \
     libarcsoft_dualcam_optical_zoom_control \
     libarcsoft_dualcam_refocus \
     libaudcal \
+    libbluetooth_audio_session_qti \
+    libbluetooth_audio_session_qti_2_1 \
     libfastcvadsp_stub \
     libfastcvopt \
     libflash_pmic \
